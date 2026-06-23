@@ -1,0 +1,86 @@
+name: Build and Publish IG
+
+# Builds the FHIR IG with SUSHI + the HL7 IG Publisher and deploys the
+# generated static site (output/) to GitHub Pages on every push to the
+# default branch. The built site is NOT committed — it is rebuilt in CI.
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+# Permissions required by actions/deploy-pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one concurrent Pages deployment; let a newer run cancel an in-flight one
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install SUSHI
+        run: npm install -g fsh-sushi
+
+      - name: Set up Ruby + Jekyll
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+      - run: gem install jekyll
+
+      # Cache the FHIR package cache to avoid re-downloading core/terminology packages each run
+      - name: Cache FHIR packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.fhir/packages
+          key: fhir-packages-${{ hashFiles('sushi-config.yaml') }}
+          restore-keys: fhir-packages-
+
+      - name: Download IG Publisher
+        run: |
+          mkdir -p input-cache
+          curl -L --fail \
+            https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar \
+            -o input-cache/publisher.jar
+
+      - name: Build IG
+        run: java -Xmx4g -jar input-cache/publisher.jar -ig ig.ini
+
+      # GitHub Pages would otherwise run Jekyll over the output and break files
+      # beginning with "_"; .nojekyll serves the IG output verbatim.
+      - name: Disable GitHub Pages Jekyll processing
+        run: touch output/.nojekyll
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,32 @@
+id: aicura.fhir.ig
+canonical: http://aicura-medical.com/fhir
+name: AicuraFHIRIG
+title: AICURA FHIR Implementation Guide
+status: draft
+version: 0.1.0
+fhirVersion: 4.3.0
+copyrightYear: 2024+
+releaseLabel: ci-build
+publisher:
+  name: AICURA Medical GmbH
+  url: https://aicura-medical.com
+description: >-
+  FHIR R4B Implementation Guide for AICURA Medical's clinical data model,
+  covering ImagingStudy (with series-level extensions), Observation, and Condition profiles.
+
+pages:
+  index.md:
+    title: Home
+  profiles.md:
+    title: Profiles
+  extensions.md:
+    title: Extensions
+  downloads.md:
+    title: Downloads
+
+menu:
+  Home: index.html
+  Profiles: profiles.html
+  Extensions: extensions.html
+  Artifacts: artifacts.html
+  Downloads: downloads.html

@@ -1,0 +1,33 @@
+== Suppressed Messages ==
+# AICURA custom code systems use production URLs that differ from the IG canonical namespace
+%URL Mismatch http://aicura-medical.com/fhir/CodeSystem%
+# AICURA custom code systems are not registered in tx.fhir.org
+%https://aicura-medical.com/fhir/coding%
+# PubChem is not a known FHIR terminology server
+%https://pubchem.ncbi.nlm.nih.gov/compound/%
+# DICOM modality URL is informational
+%https://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_29.html%
+# MedDRA is not registered in tx.fhir.org
+%https://www.meddra.org/%
+# R4B IGs always get version mismatch warnings from R4 dependency packages
+%This IG is version 4.3.0, while the IG%
+# IG dependency canonical URL mismatch for R4B extensions package (known IG Publisher issue)
+%hl7.fhir.uv.extensions%
+# No examples provided in this initial IG version
+%The Implementation Guide contains no examples%
+# HTML fragments from template not used in this simple IG
+%is not included anywhere in the produced implementation guide%
+# Inherited base resource bindings to external canonical URLs that cannot be resolved
+%http://www.rsna.org/RadLex_Playbook.aspx%
+%http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html%
+# Observation binds to value sets marked experimental in the base spec
+%which is experimental, but this structure is not labeled as experimental%
+# SNOMED-CT code 386805003 has an updated preferred display
+%is no longer considered a correct display%
+# Some LOINC codes are deprecated or discouraged in newer versions but still in use
+%has a status of DISCOURAGED%
+%is deprecated and its use should be reviewed%
+# Conformance resource canonical URL mismatch for AICURA custom code systems
+%the canonical URL (http://aicura-medical.com/fhir%
+# IG dependency package ID mismatch (R4B inherits R4 extensions)
+%is inconsistent with the stated packageId%

@@ -1,0 +1,69 @@
+encounter.id,recordedDate,ageAtCondition,id,resourceType,onsetDateTime,encounter.type.0.text,encounter.type.0.coding.0.display,clinicalStatus,severity,code.text,code.coding.0.display,onsetAge,onsetPeriod,onsetRange,onsetString,abatementAge,abatementDateTime,abatementPeriod,abatementRange,abatementString,patients.id,stage.type.coding.0.display,stage.type.text,encounter.type.0.coding.1.display
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Mild cognitive disorder (disorder),Mild cognitive disorder (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Normal cognition,Normal cognition,,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Alzheimer's disease (disorder),Alzheimer's disease (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Dementia (disorder),Dementia (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Parkinson's disease (disorder),Parkinson's disease (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Behavioral variant of frontotemporal dementia (disorder),Behavioral variant of frontotemporal dementia (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Progressive non fluent aphasia (disorder),Progressive non fluent aphasia (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Semantic dementia (disorder),Semantic dementia (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Other neurological disorder(s),Disorder of nervous system (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Spinocerebellar ataxia (SCA),Spinocerebellar ataxia (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Vascular parkinsonism,Vascular parkinsonism (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Essential Tremor,Essential tremor (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Psychogenic parkinsonism,Psychogenic parkinsonism,,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Multiple system atrophy (disorder),Multiple system atrophy (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Dementia with Lewy bodies,Diffuse Lewy body disease (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Motor Neurone disease with parkinsonism,Motor Neurone disease with parkinsonism,,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Corticobasal syndrome,Corticobasal syndrome (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Synucleinopathy,Synucleinopathy,,,,,,,,,,id,Prodromal phase (qualifier value),Prodromal,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Dopa-responsive dystonia,Diurnal dystonia (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Juvenile autosomal recessive parkinsonism,Juvenile autosomal recessive parkinsonism,,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Progressive supranuclear palsy,Progressive supranuclear palsy (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Parkinson's disease (disorder),Parkinson's disease (disorder),,,,,,,,,,id,Prodromal phase (qualifier value),Prodromal,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Neuroleptic-induced parkinsonism,Parkinsonism caused by neuroleptic drug (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Hemiparkinson/hemiatrophy syndrome,Hemiparkinsonism hemiatrophy syndrome (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Normal cognition,Normal cognition,,,,,,,,,,id,,,3.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Mild cognitive disorder (disorder),Mild cognitive disorder (disorder),,,,,,,,,,id,,,3.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Normal cognition,Normal cognition,,,,,,,,,,id,,,8.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Normal cognition,Normal cognition,,,,,,,,,,id,,,9.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Dementia (disorder),Dementia (disorder),,,,,,,,,,id,,,3.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Mild cognitive disorder (disorder),Mild cognitive disorder (disorder),,,,,,,,,,id,,,9.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Mild cognitive disorder (disorder),Mild cognitive disorder (disorder),,,,,,,,,,id,,,8.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Dementia (disorder),Dementia (disorder),,,,,,,,,,id,,,8.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Dementia (disorder),Dementia (disorder),,,,,,,,,,id,,,9.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Mental disorder (disorder),Mental disorder (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Disorder of nervous system (disorder),Disorder of nervous system (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Disorder of cardiovascular system (disorder),Disorder of cardiovascular system (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Connective tissue disorder,Connective tissue disorder,,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Smoker (finding),Smoker (finding),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Disorder of respiratory system (disorder),Disorder of respiratory system (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Disorder of musculoskeletal system (disorder),Disorder of musculoskeletal system (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Malignant neoplasm (morphologic abnormality),Malignant neoplasm (morphologic abnormality),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Disorder of liver (disorder),Disorder of liver (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Harmful pattern of use of alcohol (disorder),Harmful pattern of use of alcohol (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Disorder of gastrointestinal tract (disorder),Disorder of gastrointestinal tract (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Alzheimer's disease (disorder),Alzheimer's disease (disorder),,,,,,,,,,id,,,8.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Alzheimer's disease (disorder),Alzheimer's disease (disorder),,,,,,,,,,id,,,3.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Primary progressive apraxia of speech (disorder),Primary progressive apraxia of speech (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Primary progressive apraxia of speech (disorder),Primary progressive apraxia of speech (disorder),,,,,,,,,,id,,,3.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Impaired cognition (finding),Impaired cognition (finding),,,,,,,,,,id,,,3.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Impaired cognition (finding),Impaired cognition (finding),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Parkinson's disease (disorder),Parkinson's disease (disorder),,,,,,,,,,id,,,9.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Alzheimer's disease (disorder),Alzheimer's disease (disorder),,,,,,,,,,id,,,9.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Posterior cortical atrophy syndrome (disorder),Posterior cortical atrophy syndrome (disorder),,,,,,,,,,id,,,
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Posterior cortical atrophy syndrome (disorder),Posterior cortical atrophy syndrome (disorder),,,,,,,,,,id,,,3.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Behavioral variant of frontotemporal dementia (disorder),Behavioral variant of frontotemporal dementia (disorder),,,,,,,,,,id,,,3.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Dementia with Lewy bodies,Diffuse Lewy body disease (disorder),,,,,,,,,,id,,,3.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Parkinson's disease (disorder),Parkinson's disease (disorder),,,,,,,,,,id,,,8.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Posterior cortical atrophy syndrome (disorder),Posterior cortical atrophy syndrome (disorder),,,,,,,,,,id,,,8.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Dementia with Lewy bodies,Diffuse Lewy body disease (disorder),,,,,,,,,,id,,,8.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Impaired cognition (finding),Impaired cognition (finding),,,,,,,,,,id,,,9.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Behavioral variant of frontotemporal dementia (disorder),Behavioral variant of frontotemporal dementia (disorder),,,,,,,,,,id,,,8.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Dementia with Lewy bodies,Diffuse Lewy body disease (disorder),,,,,,,,,,id,,,9.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Primary progressive apraxia of speech (disorder),Primary progressive apraxia of speech (disorder),,,,,,,,,,id,,,8.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Primary progressive apraxia of speech (disorder),Primary progressive apraxia of speech (disorder),,,,,,,,,,id,,,9.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Impaired cognition (finding),Impaired cognition (finding),,,,,,,,,,id,,,8.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Parkinson's disease (disorder),Parkinson's disease (disorder),,,,,,,,,,id,,,3.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Behavioral variant of frontotemporal dementia (disorder),Behavioral variant of frontotemporal dementia (disorder),,,,,,,,,,id,,,9.0
+id,2000-01-01T00:00:00.000Z,,id,Condition,,study visit,study visit,,,Posterior cortical atrophy syndrome (disorder),Posterior cortical atrophy syndrome (disorder),,,,,,,,,,id,,,9.0
